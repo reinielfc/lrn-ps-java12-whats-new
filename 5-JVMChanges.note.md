@@ -1,0 +1,24 @@
+## 5. JVM Changes
+
+- G1GC (Garbage collection) improvements
+- new GC, [Shenandoah](https://bit.ly/shenandoah-gc)
+    - goals: support large heaps, low pause times
+    - innovations: Brooks pointers
+- JVM Constants API
+    - low-level JVM feature
+    - sections in a class file
+        - methods
+        - fields
+        - metadata
+        - constant pool: constant entries of values used in the class
+            - numeric literals
+            - string values
+            - method references
+            - class references
+    - constant pool entries don't have a descriptor
+    - it was introduced with this API
+    - java.lang.constant
+        - ConstantDesc, interface implemented by
+            - ClassDesc
+            - String
+            - MethodTypeDesc

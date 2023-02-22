@@ -3,7 +3,7 @@
 1. **Course Overview** [[GITHUB][branch.gh.main]]
 2. Java 12 API Updates [[NOTE](2-Java12ApiUpdates.note.md)]
 3. Preview Feature: Switch Expressions [[NOTE](3-PreviewFeature-SwitchExpressions.note.md)]
-4. Micro-benchmarking with JMH [GITHUB][branch.gh.p4]
+4. Micro-benchmarking with JMH [[GITHUB][branch.gh.p4]]
 5. JVM Changes [[NOTE](5-JVMChanges.note.md)]
 
 
